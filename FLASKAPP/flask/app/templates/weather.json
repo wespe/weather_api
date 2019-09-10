@@ -1,0 +1,17 @@
+{
+    "location": {
+      "lon": {{ items.lon }},
+      "lat": {{ items.lat }}
+    },
+    "title": "{{ items.name }}",
+    "timestamp": "{{ items.timestamp }}",
+    "temperature": {
+      "C": {{ items.temp }}
+    },
+    "humidity": {
+      "percent": {{ items.humidity }}
+    },
+    "pressure": {
+      "atm": {{ items.pressure }}
+    }
+}
